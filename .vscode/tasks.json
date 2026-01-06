@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build and Run Vertex Project",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "prjt.c",            // replace with your source file name
+                "-o",
+                "main.exe",
+                "-lncursesw",
+                "-lcurl",
+                "-ljson-c"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "options": {
+                "cwd": "${C:\Users\Admin\OneDrive\Desktop}",
+                "env": {
+                    "PATH": "C:\\msys64\\mingw64\\bin;${env:PATH}"
+                }
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Build and link ncurses, curl, json-c"
+        }
+    ]
+}

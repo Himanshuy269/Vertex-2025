@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Win64",
+            "includePath": [
+                "C:/msys64/mingw64/include",
+                "C:/msys64/mingw64/include/ncursesw",
+                "C:/msys64/mingw64/include/curl",
+                "C:/msys64/mingw64/include/json-c"
+            ],
+            "defines": [],
+            "compilerPath": "C:/msys64/mingw64/bin/gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
