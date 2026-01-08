@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include <stdlib.h>
 #include <string.h>
-//#include <ncurses.h>
+#include <ncurses.h>
 #include <json-c/json.h>
-#include <ncursesw/curses.h>
 #include <curl/curl.h>
+//#include <ncursesw/curses.h>
 // Replace with your actual Gemini API key from Google AI Studio
 #define API_KEY "YOUR_GEMINI_API_KEY_HERE"
 #define API_URL "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=" API_KEY
